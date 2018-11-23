@@ -53,3 +53,22 @@ $('.title').html('some text');
 console.log('1');
 
 ```
+
+##  dev-server install
+
+```
+npm i webpack-dev-server --save-dev
+
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open"
+  },
+
+```
+
+##  create webpack config
+
+```
+touch webpack.config.js
+
+```
