@@ -70,5 +70,17 @@ npm i webpack-dev-server --save-dev
 
 ```
 touch webpack.config.js
+npm i path --save-dev
+
+let path = require('path');
+
+module.export ={
+    entry: './src/index.js',
+    output: {
+        path: path.resolve(__dirname, './dist'),
+        filename: 'main.js',
+        publicPath: '/dist'
+    }
+}
 
 ```
