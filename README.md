@@ -71,6 +71,9 @@ npm i webpack-dev-server --save-dev
 ```
 touch webpack.config.js
 npm i path --save-dev
+npm i babel-cli --save-dev
+npm i babel-preset-latest --save-dev
+npm i babel-core babel-loader babel-preset babel-preset-env babel-preset-stage-3 --save-dev
 
 let path = require('path');
 
