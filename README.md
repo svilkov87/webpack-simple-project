@@ -81,6 +81,7 @@ npm i style-loader --save-dev
 npm i css-loader --save-dev
 npm i node-sass --save-dev
 npm i extract-text-webpack-plugin@next --save-dev
+npm i vue-template-compiler --save-dev
 
 
 
