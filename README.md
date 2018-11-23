@@ -1,4 +1,5 @@
 # webpack-simple-project
+https://www.youtube.com/watch?v=MRlBKfGktwI&t=5090s
 
 ## creating package.json with dependenses
 
