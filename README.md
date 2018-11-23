@@ -43,4 +43,13 @@ npm i jquery --save
 npm install vue
 npm install vue-loader
 
+index.js:
+
+import $ from 'jquery';
+import Vue from 'vue';
+
+$('.title').html('some text');
+
+console.log('1');
+
 ```
